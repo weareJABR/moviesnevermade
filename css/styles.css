@@ -3783,7 +3783,7 @@ textarea.form-control-lg {
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
-  text-shadow: 1px 1px #000,3px 3px #444, 4px 4px rgba(252,255,98);
+  text-shadow: 2px 2px #000,4px 4px rgb(0,235,220);
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
@@ -7678,7 +7678,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .mb-auto {
@@ -10992,7 +10992,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 25rem;
+  width: 45rem;
   border-radius: 8px;
 }
 
@@ -11057,4 +11057,7 @@ html {
 
 .copyright {
   background-color:;
+}
+
+.mnm {font-family: "Trade Winds", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
