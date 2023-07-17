@@ -11027,7 +11027,7 @@ html {
   background-color: rgba(0, 235,220, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: .5;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
@@ -11062,3 +11062,6 @@ html {
 
 .mnm {font-family: "Trade Winds", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.portfolio-modal .modal-body p {text-align: left;}
+.portfolio-modal .modal-body .lead,.portfolio-modal .modal-body .mb-4  {text-align: center;}
