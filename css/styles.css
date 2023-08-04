@@ -11065,3 +11065,84 @@ html {
 
 .portfolio-modal .modal-body p {text-align: left;}
 .portfolio-modal .modal-body .lead,.portfolio-modal .modal-body .mb-4  {text-align: center;}
+
+
+/*!
+* polaroids
+*/
+
+
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+  
+}
+.polaroid > img{
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+  display: none;
+}
+.photo-item {
+  width: 100%;
+  display: inline-block;
+  margin-top: 0rem;
+  filter: grayscale(50%);
+}
+.photo-item .polaroid:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.35s;
+}
+.photo-item:nth-of-type(4n+1) {
+  transform: scale(0.8, 0.8) rotate(5deg);
+  transition: all 0.35s;
+}
+.photo-item:nth-of-type(4n+1) .polaroid:before {
+  transform: rotate(6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  right: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+}
+.photo-item:nth-of-type(4n+2) {
+  transform: scale(0.8, 0.8) rotate(-5deg);
+  transition: all 0.35s;
+}
+.photo-item:nth-of-type(4n+2) .polaroid:before {
+  transform: rotate(-6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  left: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+}
+.photo-item:nth-of-type(4n+4) {
+  transform: scale(0.8, 0.8) rotate(3deg);
+  transition: all 0.35s;
+}
+.photo-item:nth-of-type(4n+4) .polaroid:before {
+  transform: rotate(4deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  right: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
+}
+.photo-item:nth-of-type(4n+3) {
+  transform: scale(0.8, 0.8) rotate(-3deg);
+  transition: all 0.35s;
+}
+.photo-item:nth-of-type(4n+3) .polaroid:before {
+  transform: rotate(-4deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  left: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
+}
+
